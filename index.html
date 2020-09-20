@@ -62,8 +62,66 @@
 		<!-- Script Formspree (formulaire de contact) -->
 		<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 		<script>
-		   window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-		   formbutton("create", {action: "https://formspree.io/YOUR_FORM_ID"})
+			window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+			formbutton("create", {
+				action: "https://formspree.io/mzbkbdoy",
+				title: "Contactez-nous!", 
+    			description: "Nous entrerons en contact avec vous le plus vite possible.",
+    			fields: [{
+					name: "name",
+					type: "text",
+					label: "",
+					placeholder: "Prénom, nom",
+					required: true
+			    },
+			    {
+					name: "email",
+					type: "email",
+					label: "",
+					placeholder: "Courriel",
+					required: true
+			    },
+			    {
+					name: "message",
+					type: "textarea",
+					label: "",
+					placeholder: "Projet",
+					required: true
+			    },
+			    {
+					name: "budget",
+					type: "number",
+					label: "",
+					placeholder: "Budget"
+			    },
+			    {
+					type: "submit",
+					label: "Envoyer"
+			    }],
+
+			    styles: {
+			    	input: {
+			    		padding: "5px"
+			    	},
+			    	body: {
+			    		background: "rgba(0,0,0,.03)"
+			    	},
+					description: {
+						background: "#55cf21"
+					},
+					button: {
+						background: "#55cf21",
+						bottom: "60px",
+						left: "0px"
+					},
+					title: {
+						background: "#55cf21"
+					},
+					modalContainer: {
+						right: "80%"
+					},
+				},
+			})
 		</script>
     </head>
 
@@ -421,6 +479,26 @@
 
 	            <div class="row">
 			        <div class="col-md-9 mb-md-0 mb-5 wow fadeIn">
+			        	<form action="https://formspree.io/mzbkbdoy" method="POST">
+							<label>
+								Courriel
+								<input type="text" placeholder="xxxx@xxxx.xxx" name="_replyto">
+							</label>
+
+							<label>
+								Téléphone
+								<input type="text" placeholder="xxxx@xxxx.xxx" name="_replyto">
+							</label>
+
+							<label>
+								Projet
+								<textarea name="message" placeholder="Expliquer votre projet"></textarea>
+							</label>
+
+							<button type="submit">Send</button>
+							</form>
+
+
 			            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 			                <div class="row">
 			                    <div class="col-md-6">

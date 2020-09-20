@@ -47,21 +47,6 @@ img { max-width: 100%; }
 ::-moz-selection { background: #9b59b6; color: #fff; text-shadow: none; }
 ::selection { background: #9b59b6; color: #fff; text-shadow: none; }
 
-/***** Bouton de formulaire de contact *****/
-#formbutton-button {
-	background: #55cf21 none repeat scroll 0% 0%!important;
-	bottom: 60px!important;
-	left: 0px!important;
-}
-
-#formbutton-modalContainer {
-	right: 80%!important;
-}
-
-#formbutton-title {
-	background: #55cf21!important;
-}
-
 /***** Chevron back to top *****/
 
 #backToTop {
