@@ -54,6 +54,14 @@ img { max-width: 100%; }
 	left: 0px!important;
 }
 
+#formbutton-modalContainer {
+	right: 80%!important;
+}
+
+#formbutton-title {
+	background: #55cf21!important;
+}
+
 /***** Chevron back to top *****/
 
 #backToTop {
