@@ -252,7 +252,7 @@ img { max-width: 100%; }
 
 .navbar-brand {
 	width: 136px;
-	background: url(../img/logo.png) left center no-repeat;
+	background: url(https://blodarn.github.io/imirage/assets/img/logo.png) left center no-repeat;
 	border: 0;
 	text-indent: -99999px;
 }
@@ -262,7 +262,7 @@ img { max-width: 100%; }
 
 .top-content {
     padding: 260px 0;
-    background-image: url(../img/backgrounds/Background-Chantier.jpg);
+    background-image: url(https://blodarn.github.io/imirage/assets/img/backgrounds/Background-Chantier.jpg);
     height: 100%;
 
 	/* Parallax scrolling effect */
@@ -393,7 +393,7 @@ img { max-width: 100%; }
 /* PARALLAX SCROLLING EFFECT */
 .about-us-container {
 	padding: 25px;
-	background-image: url(../img/backgrounds/Background-Ronnie_R.jpg);
+	background-image: url(https://blodarn.github.io/imirage/assets/img/backgrounds/Background-Ronnie_R.jpg);
 	height: 100%;
 
 	/* Parallax scrolling effect */
