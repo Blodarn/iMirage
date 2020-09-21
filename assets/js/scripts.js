@@ -29,9 +29,9 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("https://blodarn.github.io/imirage/assets/img/backgrounds/background-chantier.jpg");
-    $('.call-to-action-container').backstretch("https://blodarn.github.io/imirage/assets/img/backgrounds/background-maison.jpg");
-    $('.testimonials-container').backstretch("https://blodarn.github.io/imirage/assets/img/backgrounds/background-maison.jpg");
+    $('.top-content').backstretch("https://blodarn.github.io/imirage/assets/img/backgrounds/Background-Chantier.jpg");
+    $('.call-to-action-container').backstretch("https://blodarn.github.io/imirage/assets/img/backgrounds/Background-Maison.jpg");
+    $('.testimonials-container').backstretch("https://blodarn.github.io/imirage/assets/img/backgrounds/Background-Maison.jpg");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
