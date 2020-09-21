@@ -30,8 +30,8 @@ jQuery(document).ready(function() {
         Background slideshow
     */
     $('.top-content').backstretch("https://blodarn.github.io/imirage/assets/img/backgrounds/Background-Chantier.jpg");
-    $('.call-to-action-container').backstretch("https://blodarn.github.io/imirage/assets/img/backgrounds/Background-Maison.jpg");
-    $('.testimonials-container').backstretch("https://blodarn.github.io/imirage/assets/img/backgrounds/Background-Maison.jpg");
+    $('.call-to-action-container').backstretch("https://blodarn.github.io/imirage/assets/img/backgrounds/Background-Maison.JPG");
+    $('.testimonials-container').backstretch("https://blodarn.github.io/imirage/assets/img/backgrounds/Background-Maison.JPG");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
