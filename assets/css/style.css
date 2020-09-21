@@ -94,6 +94,12 @@ img { max-width: 100%; }
     top: 5px;
 }
 
+/***** Texte souligné *****/
+.souligne {
+	border-bottom: 5px solid #55cf21;
+	font-size: 38px;
+}
+
 /***** Contact form bas de page *****/
 #message {
 	margin-bottom: 15px;
@@ -488,6 +494,11 @@ img { max-width: 100%; }
 /***** Portfolio *****/
 .portfolio-container {
 	padding-top: 85px;
+	padding-bottom: 45px;
+}
+
+.portfolioLink-container {
+	padding-top: 45px;
 	padding-bottom: 45px;
 }
 
