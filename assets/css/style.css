@@ -94,14 +94,9 @@ img { max-width: 100%; }
     top: 5px;
 }
 
-
-/***** Modal *****/
-
-.modal-xl {
-	max-width: 100%;
-	margin-top: 90px;
-	margin-right: 1.75rem;
-	margin-left: 1.75rem;
+/***** Contact form bas de page *****/
+#message {
+	margin-bottom: 15px;
 }
 
 /***** Sections *****/

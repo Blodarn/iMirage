@@ -471,76 +471,60 @@
 	        <div class="container">
 	        	<div class="row">
 	                <div class="col soumision section-description wow fadeIn">
-	                    <h2>Soumission gratuite</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                    <h2>Soumission gratuite</h2>	                    
+	                    <div class="divider-1 wow"><span></span></div>
 	                    <p>Prenez le temps. Contactez-nous. Notre équipe vous répondra d'ici peu.</p>
 	                </div>
 	            </div>
 
 	            <div class="row">
 			        <div class="col-md-9 mb-md-0 mb-5 wow fadeIn">
-			        	<form action="https://formspree.io/mzbkbdoy" method="POST">
-							<label>
-								Courriel
-								<input type="text" placeholder="xxxx@xxxx.xxx" name="_replyto">
-							</label>
-
-							<label>
-								Téléphone
-								<input type="text" placeholder="xxxx@xxxx.xxx" name="_replyto">
-							</label>
-
-							<label>
-								Projet
-								<textarea name="message" placeholder="Expliquer votre projet"></textarea>
-							</label>
-
-							<button type="submit">Send</button>
-							</form>
-
-
-			            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+			            <form id="contact-form" name="contact-form" action="https://formspree.io/mzbkbdoy" method="POST">
 			                <div class="row">
 			                    <div class="col-md-6">
 			                        <div class="md-form mb-0">
-			                            <input type="text" id="name" name="name" class="form-control">
-			                            <label for="name" class="">Votre nom</label>
+			                        	<label>Votre nom</label>
+			                            <input type="text" id="name" name="name" class="form-control">			                            
 			                        </div>
 			                    </div>
 
 			                    <div class="col-md-6">
 			                        <div class="md-form mb-0">
-			                            <input type="text" id="email" name="email" class="form-control">
-			                            <label for="email" class="">Votre courriel</label>
+			                        	<label>Votre courriel</label>
+			                            <input type="text" id="email" name="_replyto" placeholder="xxxx@xxxx.xxx" class="form-control">			                            
+			                        </div>
+			                    </div>
+		                    </div>
+
+		                    <div class="row">
+			                    <div class="col-md-6">
+			                        <div class="md-form mb-0">
+			                        	<label>Votre téléphone</label>
+			                            <input type="text" id="telephone" name="telephone" placeholder="###-###-####" class="form-control">			                            
+			                        </div>
+			                    </div>
+
+			                    <div class="col-md-6">
+			                        <div class="md-form mb-0">
+			                        	<label>Budget</label>
+			                            <input type="number" id="subject" name="budget" placeholder="##" class="form-control">
 			                        </div>
 			                    </div>
 			                </div>
 
 			                <div class="row">
 			                    <div class="col-md-12">
-			                        <div class="md-form mb-0">
-			                            <input type="text" id="subject" name="subject" class="form-control">
-			                            <label for="subject" class="">Sujet</label>
-			                        </div>
-			                    </div>
-			                </div>
-
-			                <div class="row">
-			                    <div class="col-md-12">
-
 			                        <div class="md-form">
-			                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-			                            <label for="message">Votre message</label>
+			                        	<label for="message">Votre projet</label>
+			                            <textarea type="text" id="message" name="message" rows="2" placeholder="Expliquer votre projet" class="form-control md-textarea"></textarea>
 			                        </div>
-
 			                    </div>
 			                </div>
 			            </form>
 
 			            <div class="text-center text-md-left">
-			                <a class="btn btn-primary" style="color: white;" onclick="validateForm()">Envoyer</a>
+			                <button type="submit" class="btn btn-primary" style="color: white;">Envoyer</button>
 			            </div>
-			            <div class="status"></div>
 			        </div>
 
 			        <div class="col-md-3 text-center">
@@ -562,7 +546,8 @@
 
 	            <div class="row">
 	            	<div class="col section-bottom-button wow fadeInUp">
-                        <a class="btn btn-primary btn-link-1 scroll-link" href="#plateformes">Soumettre par une plateforme</a>
+	            		<div class="divider-1 wow"><span></span></div>
+                        <a class="btn btn-primary btn-link-1 scroll-link" href="#plateformes">Ou soumettre par une plateforme</a>
 	            	</div>
 	            </div>
 	        </div>
