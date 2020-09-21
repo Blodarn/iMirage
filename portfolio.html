@@ -39,7 +39,6 @@
         <script src="https://blodarn.github.io/imirage/assets/js/jquery-migrate-3.0.0.min.js"></script>
         <script src="https://blodarn.github.io/imirage/assets/js/jquery.backstretch.min.js"></script>
         <script src="https://blodarn.github.io/imirage/assets/js/wow.min.js"></script>
-        <script src="https://blodarn.github.io/imirage/assets/js/retina-1.1.0.min.js"></script>
         <script src="https://blodarn.github.io/imirage/assets/js/waypoints.min.js"></script>
         <script src="https://blodarn.github.io/imirage/assets/js/scripts.js"></script>
 
@@ -63,7 +62,65 @@
 		<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 		<script>
 			window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-			formbutton("create", {action: "https://formspree.io/mzbkbdoy"})
+			formbutton("create", {
+				action: "https://formspree.io/mzbkbdoy",
+				title: "Contactez-nous!", 
+    			description: "Nous entrerons en contact avec vous le plus vite possible.",
+    			fields: [{
+					name: "name",
+					type: "text",
+					label: "",
+					placeholder: "Prénom, nom",
+					required: true
+			    },
+			    {
+					name: "email",
+					type: "email",
+					label: "",
+					placeholder: "Courriel",
+					required: true
+			    },
+			    {
+					name: "message",
+					type: "textarea",
+					label: "",
+					placeholder: "Projet",
+					required: true
+			    },
+			    {
+					name: "budget",
+					type: "number",
+					label: "",
+					placeholder: "Budget"
+			    },
+			    {
+					type: "submit",
+					label: "Envoyer"
+			    }],
+
+			    styles: {
+			    	input: {
+			    		padding: "5px"
+			    	},
+			    	body: {
+			    		background: "rgba(0,0,0,.03)"
+			    	},
+					description: {
+						background: "#55cf21"
+					},
+					button: {
+						background: "#55cf21",
+						bottom: "60px",
+						left: "0px"
+					},
+					title: {
+						background: "#55cf21"
+					},
+					modalContainer: {
+						right: "80%"
+					},
+				},
+			})
 		</script>
     </head>
 
