@@ -47,6 +47,15 @@ img { max-width: 100%; }
 ::-moz-selection { background: #9b59b6; color: #fff; text-shadow: none; }
 ::selection { background: #9b59b6; color: #fff; text-shadow: none; }
 
+/***** Icone main services *****/
+.handclick {
+    font-size: 32px;
+}
+
+.handclick:hover {
+    color: #888;
+}
+
 /***** Chevron back to top *****/
 
 #backToTop {
